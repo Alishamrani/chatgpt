@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+  }
+  
+  #uploadForm {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #imageContainer {
+    text-align: center;
+  }
+  
+  #imageContainer img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
