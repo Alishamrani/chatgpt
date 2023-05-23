@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DICOM Viewer and Reports</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>DICOM Viewer and Reports</h1>
+
+  <form id="uploadForm" enctype="multipart/form-data">
+    <input type="file" id="dicomFile" name="dicomFile" accept=".dcm">
+    <button type="submit">Upload DICOM File</button>
+  </form>
+
+  <div id="viewerSection">
+    <h2>DICOM Viewer</h2>
+    <div id="dicomViewer"></div>
+  </div>
+
+  <div id="reportSection">
+    <h2>Add Report</h2>
+    <form id="reportForm">
+      <textarea id="reportText" name="reportText" placeholder="Enter Report"></textarea>
+      <br/>
+      <button type="submit">Add Report</button>
+    </form>
+  </div>
+
+  <script src="cornerstone.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
